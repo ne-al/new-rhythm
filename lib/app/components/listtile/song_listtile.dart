@@ -60,6 +60,7 @@ class SongListTile extends StatelessWidget {
           context,
           MaterialPageRoute(
             builder: (context) => const MusicPlayer(),
+            settings: const RouteSettings(name: '/musicPlayer'),
           ),
         );
 
